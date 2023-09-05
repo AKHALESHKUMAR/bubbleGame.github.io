@@ -1,0 +1,84 @@
+*{
+   
+    padding:0;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 225, 211);
+}
+#penal{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    width: 50%;
+}
+#penaltop{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color:white;
+    height: 60px;
+    width: 100%;
+    background-color:  rgb(72,104,72);
+    
+}
+.elem h2{
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+.box{
+    color:rgb(72,104,72);
+    font-weight: 600;
+    font-size: 20px;
+    padding:10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#penalbottom{
+    width: 100%;
+    height: calc(100%-100px);
+    display: flex;
+    gap: 10px;
+    padding:20px;
+    flex-wrap: wrap;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72,104,72);
+    color:white;
+    border-radius: 50%;
+    font-weight: 700;
+
+}
